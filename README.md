@@ -16,15 +16,15 @@ Also, the hue config contains `localhost` for some elements (WebHDFS) where it s
 
 ## Start the Hue service
 
-Ssh into the box (default password is `hadoop`.
+Ssh into the box (default password is `hadoop`).
 
 	ssh root@sandbox
 
-Start the service
+Start the service.
 
 	service hue start
 
-If you want this to persist between reboots of the SandboxVM
+If you want this to persist between reboots of the SandboxVM:
 
 	chkconfig hue on
 
